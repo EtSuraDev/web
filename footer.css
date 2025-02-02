@@ -1,0 +1,38 @@
+footer {
+    background-color: rgba(227, 117, 3, 1);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    overflow: hidden;
+    column-gap: 20px;
+}
+
+.phone,
+.message,
+.line,
+.instagram {
+    display: flex;
+    align-items: centera;
+}
+
+.message {
+    height: 104px;
+    align-items: center;
+}
+
+.instagram>p {
+    width: 50%;
+}
+
+.instagram {
+    width: 100%;
+}
+
+.one {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+}
