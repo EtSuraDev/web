@@ -3,6 +3,7 @@ footer {
     color: white;
     display: flex;
     justify-content: space-around;
+    padding: 20px;
     width: 100%;
     overflow: hidden;
     column-gap: 20px;
@@ -13,7 +14,8 @@ footer {
 .line,
 .instagram {
     display: flex;
-    align-items: centera;
+    align-items: center;
+    /* Fixed typo */
 }
 
 .message {
@@ -22,7 +24,7 @@ footer {
 }
 
 .instagram>p {
-    width: 50%;
+    width: 80%;
 }
 
 .instagram {
@@ -35,4 +37,10 @@ footer {
     flex-direction: column;
     text-align: center;
     margin: auto;
+}
+
+@media only screen and (max-width: 750px) {
+    footer>div>div>p {
+        font-size: 11px;
+    }
 }

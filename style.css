@@ -88,3 +88,13 @@ body>div.body>div.under>div:nth-child(1) {
         width: 70%;
     }
 }
+
+.linck {
+    cursor: pointer;
+    opacity: 100;
+}
+
+button {
+    cursor: pointer;
+    opacity: 100;
+}
