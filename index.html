@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="map-container.css">
     <link rel="stylesheet" href="time.css">
     <link rel="stylesheet" href="middle.css">
+    <link rel="stylesheet" href="price.css">
+    <link rel="stylesheet" href="user.css">
     <link rel="stylesheet" href="card-container.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -17,6 +19,16 @@
 
 <body>
     <div class=" body ">
+        <div class="side-bar">
+            <h4>ホーム</h4>
+            <h4>こんな方におすすめ</h4>
+            <h4>サービスの特徴</h4>
+            <h4>料金</h4>
+            <h4>トレーナー</h4>
+            <h4>無料カウンセリング</h4>
+            <h4>企業理念</h4>
+            <h4>創業者紹介</h4>
+        </div>
 
 
 
@@ -105,65 +117,68 @@
 
 
 
-        <!-- <div class=" price ">
-            <div>
-                <h3>
-                    料金
-                </h3>
-            </div>
-            <div>
-                <div>
+        <div class="price">
+            <h1>料金</h1>
+            <div class="first-row">
+                <div class="first-box">
                     <h1>ベストライフ40</h1>
-                </div>
-                <div class="first">
-
-
-                    <div class="card-one">
-                        <div class="part-one">
-                            <p>
-                                オススメ
-                            </p>
+                    <div>
+                        <div>
+                            <p>オススメ</p>
                         </div>
-                        <div class="part-tow">
-                            <p>\ 3000円お得 /</p>
-                            <p style="font-size: 64px; margin: 0px;">￥40,000</p>
-                            <p style="font-weight: 400;">税込・10回分</p>
-                        </div>
+                        <h2>3000円お得</h2>
+                        <h1>￥40,000</h1>
+                        <h2>税込・10回分</h2>
                     </div>
-
-
-
-                    <div class=" card-tow ">
-                        <p>\ 地域最安値 /</p>
-                        <p style="font-size: 64px;">￥4,300</p>
-                        <p style="font-weight: 400;">税込・都度払い</p>
-                    </div>
-
-
-                    <form>
-                        <input type="checkbox" id="地域最安値" value="地域最安値" /><label for="地域最安値">地域最安値</label><br>
-                        <input type="checkbox" id="入会金無料" value="入会金無料" /><label for="入会金無料">入会金無料</label><br>
-                        <input type="checkbox" id="その他初期費用なし" value="その他初期費用なし" /><label for="その他初期費用なし">その他初期費用なし</label>
-                    </form>
                 </div>
-                <div class="second">
-                    <div class="first">
-                        <h1>その他サービス</h1>
-                    </div>
-                    <div class="last">
-                        <p>パーソナルストレッチ40分</p>
-                        <p>￥4,400 / 回</p>
-                        <p>税込・都度払い</p>
-                        <hr>
-                        <p>専門的な指導付き個別メニュー</p>
-                        <p>パーソナルトレーニング</p>
-                        <p>￥7,700 / 回</p>
-                        <p>税込・都度払い</p>
-                    </div>
+                <div class="second-box">
+                    <h2>地域最安値</h2>
+                    <h1>￥4,300</h1>
+                    <h3>税込・都度払い</h3>
+                </div>
+                <div class="form">
+                    <input type="checkbox" name="地域最安値" id="地域最安値"><label for="地域最安値">地域最安値</label><br>
+                    <input type="checkbox" name="入会金無料" id="入会金無料"><label for="入会金無料">入会金無料</label><br>
+                    <input type="checkbox" name="その他初期費用なし" id="その他初期費用なし"><label for="その他初期費用なし">その他初期費用なし</label>
                 </div>
             </div>
-        </div> -->
 
+
+            <div class="second-row">
+                <div class="first-box">
+                    <h2>その他サービス</h2>
+                </div>
+                <div class="second-box">
+                    <h1>パーソナルストレッチ40分</h1>
+                    <h1>￥4,400 / 回</h1>
+                    <p>税込・都度払い</p>
+                    <hr>
+                    <p>専門的な指導付き個別メニュー</p>
+                    <h1>パーソナルトレーニング</h1>
+                    <h1>￥7,700 / 回</h1>
+                    <p>税込・都度払い</p>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="user">
+            <div class=" user-img">
+                <h3>トレーナー紹介</h3>
+                <img class="user-ptof" src="./images/4.png" alt="">
+
+            </div>
+            <div class="user-info">
+                <h3>君塚龍二</h3>
+                <p>ベストライフフィットネス代表 / パーソナルトレーナー</p>
+                <p>スポーツ分野を専門的に学び、ゴールドジムを運営するTHINKフィットネスで7年以上の指導経験を持つ。90歳近い高齢者からアスリートまで幅広い層に対応可能。</p>
+                <p class=" select ">幼少期の困難な経験を経て、多くの人に健康を届けたいという思いでベストライフフィットネスを創設。講演やセミナーを通じて、健康促進と公平な社会を目指した活動も展開している。</p>
+            </div>
+        </div>
+        <p style="font-size: 11px; color:rgba(227, 117, 3, 1); " class=" hidden ">
+            幼少期の困難な経験を経て、多くの人に健康を届けたいという思いでベストライフフィットネスを創設。講演やセミナーを通じて、健康促進と公平な社会を目指した活動も展開している。</p>
 
 
 
@@ -175,7 +190,7 @@
                 </p>
                 <button>無料カウンセリング予約</button>
             </div>
-            <div class="box-tow" style="">
+            <div class="box-tow">
                 <img src="./images/image 1.png" style="width: 100%;
     height: auto;
     display: block;" alt="" />
@@ -334,6 +349,9 @@
             </div>
         </footer>
     </div>
+
 </body>
+
+<script src="./script.js"></script>
 
 </html>
