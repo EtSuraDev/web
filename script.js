@@ -2,11 +2,25 @@ const menu = document.querySelector(".icon");
 const sideBar = document.querySelector(".side-bar");
 const body = document.body;
 
+
 // Function to open the sidebar
 menu.addEventListener("click", (event) => {
     sideBar.style.display = "flex";
     body.style.overflow = "hidden";
     event.stopPropagation(); // Prevent immediate closing
+});
+
+const arrow = document.querySelector(".arrow");
+const paragraph = document.querySelector(".paragrph");
+let isDisplay = true;
+
+arrow.addEventListener("click", () => {
+    if (isDisplay) {
+        paragraph.style.display = "none";
+    } else {
+        paragraph.style.display = "block";
+    }
+    isDisplay = !isDisplay; // Toggle the state correctly
 });
 
 // Function to close the sidebar when clicking outside
