@@ -193,15 +193,20 @@
             </p>
             <button> <a href="https://timerex.net/s/jpnkimizuka_8032/48141be6 " style="text-decoration: none; color: white; "> 無料カウンセリング予約</a></button>
         </div>
-        <div class="box-tow ">
-            <div style="width: 100%; height: auto; display: block; " id="timerex_calendar " data-url="https://timerex.net/s/jpnkimizuka_8032/48141be6 "></div>
+        <div class="box-tow">
+            <div style="width: 100%; height: auto; display: block;" id="timerex_calendar" data-url="https://timerex.net/s/jpnkimizuka_8032/48141be6"></div>
 
-            <script id="timerex_embed " src="https://asset.timerex.net/js/embed.js "></script>
+            <script id="timerex_embed" src="https://asset.timerex.net/js/embed.js"></script>
 
-            <script type="text/javascript ">
-                TimerexCalendar();
+            <script type="text/javascript">
+                document.addEventListener("DOMContentLoaded", function() {
+                    if (typeof TimerexCalendar === "function") {
+                        TimerexCalendar();
+                    }
+                });
             </script>
         </div>
+
     </div>
     </div>
 
